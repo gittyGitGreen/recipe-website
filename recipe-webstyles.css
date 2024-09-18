@@ -1,0 +1,58 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    padding: 20px;
+    background-color: black;
+    color: #ffffff;
+    
+    .menu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: bold;
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}
+
+.website-content {
+    background-color: #ffffff;
+    padding: 10px;
+
+    .cover-pic {
+        width: 100%;
+    }
+
+    h3 {
+        text-transform:uppercase;
+        font-size: 40px;
+    }
+
+    .cuisines-images {
+        display: flex;
+        justify-content: space-around;
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+    }
+
+    .cuisines-names {
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+}
+
+.recipe {
+    margin: 20px;
+}
